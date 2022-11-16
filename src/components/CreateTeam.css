@@ -6,7 +6,7 @@
 
 .createTeamHeader {
     height: 61px;
-    width:100%;
+    width: 100%;
     background-color: lavender;
     border: 1px solid #FFFFFF;
     border-radius: 8px 8px 0px 0px;
@@ -27,4 +27,230 @@
     border-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(9.5px);
     border-radius: 8px;
+}
+
+
+.teamSelect {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamSelectPlayers {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem
+}
+
+.teamPlayer {
+    width: 52px;
+    height: 52px;
+    background: #FF326A;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamText {
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+}
+
+.teamCredit {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 224px;
+    height: 40px;
+    background: #391a5e;
+    background-blend-mode: overlay;
+    border: 1px solid rgba(235, 235, 245, 0.3);
+    border-radius: 24px;
+}
+
+.teamCreditText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.teamDetails {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.team1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.team1Logo {
+    width: 129px;
+    height: 40px;
+    background: #FFEE00;
+    position: relative;
+}
+
+.team1Img {
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 70px;
+    height: 80px;
+    width: 80px;
+    background: #000235;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamName {
+    margin: 0 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+}
+
+
+.team2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.team2Logo {
+    width: 129px;
+    height: 40px;
+    background: #CE0037;
+    position: relative;
+}
+
+.team2Img {
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    right: 70px;
+    height: 80px;
+    width: 80px;
+    background: #000235;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamMembers {
+    display: flex;
+    gap: 1em;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+
+.team1Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.playerCard {
+    display: flex;
+    width: 305px;
+    height: 88px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 40px rgba(0, 1, 27, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 4px;
+}
+
+.playerCardImg {
+    width: 87px;
+    height: 87px;
+    background: #211134;
+    border: 0px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.playerImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.playerCardDetails {
+    width: 218px;
+    display: flex;
+    flex-direction: column
+}
+
+.playerName {
+    height: 58px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 0px 4px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    padding: 1rem;
+}
+
+.nameText{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.playerCredit {
+    height: 29px;
+}
+
+.credit{
+    padding: 0.2rem 1rem; 
+}
+
+.creditDetails{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FF326A;
+}
+
+
+.team2Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
 }
