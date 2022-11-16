@@ -54,6 +54,13 @@
     align-items: center;
 }
 
+.teamPlayerDetails {
+    width: 52px;
+    height: 52px;
+    background: blue;
+    border-radius: 4px;
+}
+
 .teamText {
     margin-top: 0.5rem;
     font-style: normal;
@@ -188,6 +195,8 @@
     box-shadow: 0px 4px 40px rgba(0, 1, 27, 0.2);
     backdrop-filter: blur(20px);
     border-radius: 4px;
+    cursor: pointer;
+    /* border:2px solid #FF326A; */
 }
 
 .playerCardImg {
@@ -219,11 +228,12 @@
     display: flex;
     flex-direction: column;
 }
+
 .name {
     padding: 1rem;
 }
 
-.nameText{
+.nameText {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -235,11 +245,11 @@
     height: 29px;
 }
 
-.credit{
-    padding: 0.2rem 1rem; 
+.credit {
+    padding: 0.2rem 1rem;
 }
 
-.creditDetails{
+.creditDetails {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -253,4 +263,23 @@
     flex-direction: column;
     align-items: center;
     gap: 1em;
+}
+
+
+.btn {
+    height: 64px;
+    width: 626px;
+    background: #FF326A;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 152.5%;
+    text-align: center;
+    letter-spacing: 0.07px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 1rem 2rem;
+    border: none;
+    cursor: pointer;
 }
