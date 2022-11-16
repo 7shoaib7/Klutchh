@@ -1,0 +1,37 @@
+.navbar {
+    height: 10vh;
+    min-width:fit-content;
+    background: #211134;
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    color: white;
+}
+
+.navMenu{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin-left: 2rem;
+}
+.navMenuTitle {
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* line-height: 100%; */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.navProfile{
+    margin-left: 2rem;
+    display: flex;
+}
+
+.navLogout{
+    margin-left: 2rem;   
+}
