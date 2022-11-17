@@ -1,4 +1,4 @@
 .liveStream{
-    width: 21rem;
+    min-width: 21rem;
     height: 12rem;
 }

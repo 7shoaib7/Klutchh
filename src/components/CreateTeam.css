@@ -1,5 +1,5 @@
 .createTeamSection {
-    width: 43rem;
+    min-width: 43rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -152,8 +152,9 @@
 
 .team2 {
     display: flex;
+    flex-direction:row !important;
     align-items: center;
-    gap: 1rem;
+    gap: 1rem !important;
 }
 
 .team2Logo {
