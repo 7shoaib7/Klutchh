@@ -58,17 +58,16 @@ const CreateTeam = () => {
           <div className="teamSelectPlayers">
             {teamPlayers.length ? teamPlayers.map((item) => (
               <div className="teamPlayerDetails">
-                {/* <img src={teamPlayer} /> */}
+                <img src={item.image_url ? item.image_url : "https://cdn.pandascore.co/images/player/image/17662/lowel.png"} alt="teamPlayer" className="teamPlayerImg"/>
               </div>
             ))
               : null
             }
-          {Array(5-teamPlayers.length).fill("0").map((item) => (
-            <div className="teamPlayer">
-              <img src={teamPlayer} />
-            </div>
+            {Array(5 - teamPlayers.length).fill("0").map((item) => (
+              <div className="teamPlayer">
+                <img src={teamPlayer} />
+              </div>
             ))}
-
           </div>
           <div className="teamPlayerText">
             <span className="teamText">Choose five players to join your team</span>
@@ -157,7 +156,8 @@ const CreateTeam = () => {
           </div>
         </div>
 
-        <button className="btn">PRIVEW SELECTION</button>
+       {teamPlayers.length === 5 ?<button className="btn">PRIVEW SELECTION</button>
+                                : <button className="btn-disabled" disabled>PRIVEW SELECTION</button> } 
 
       </div>
     </div>

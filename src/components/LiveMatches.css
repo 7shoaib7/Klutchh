@@ -1,9 +1,9 @@
-.newsSection {
+.liveMatchSection {
     width:21rem;
     height: 83rem;
 }
 
-.newsHeader {
+.liveMatchHeader {
     height: 4rem;
     background-color: lavender;
     border: 0.1rem solid #FFFFFF;
@@ -14,7 +14,7 @@
     padding: 0 1rem;
 }
 
-.newsContent {
+.liveMatchContent{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;

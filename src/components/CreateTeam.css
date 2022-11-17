@@ -1,15 +1,15 @@
 .createTeamSection {
-    width: 690px;
+    width: 43rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
 .createTeamHeader {
-    height: 61px;
+    height: 3.8rem;
     width: 100%;
     background-color: lavender;
-    border: 1px solid #FFFFFF;
-    border-radius: 8px 8px 0px 0px;
+    border: 0.1rem solid #FFFFFF;
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -20,13 +20,13 @@
 .createTeamContent {
     box-sizing: border-box;
     width: 100%;
-    height: 890px;
+    height: 55rem;
     background: #211134;
-    border-width: 0px 1px 1px 1px;
+    border-width: 0rem 0.1rem 0.1rem 0.1rem;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(9.5px);
-    border-radius: 8px;
+    backdrop-filter: blur(1rem);
+    border-radius: 0.8rem;
 }
 
 
@@ -44,31 +44,36 @@
     gap: 1rem
 }
 
+.teamPlayerDetails {
+    width: 3.2rem;
+    height: 3.2rem;
+    background:#000235;
+    border-radius: 0.4rem;
+}
+.teamPlayerImg{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
 .teamPlayer {
-    width: 52px;
-    height: 52px;
+    width: 3.2rem;
+    height: 3.2rem;
     background: #FF326A;
-    border-radius: 4px;
+    border-radius: 0.4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.teamPlayerDetails {
-    width: 52px;
-    height: 52px;
-    background: blue;
-    border-radius: 4px;
 }
 
 .teamText {
     margin-top: 0.5rem;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 13px;
+    font-size: 1rem;
+    line-height: 1rem;
     text-align: center;
-    letter-spacing: 0.07px;
+    letter-spacing: 0.004rem;
     color: #FFFFFF;
 }
 
@@ -78,19 +83,19 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 224px;
-    height: 40px;
+    width: 14rem;
+    height: 2.5rem;
     background: #391a5e;
     background-blend-mode: overlay;
-    border: 1px solid rgba(235, 235, 245, 0.3);
-    border-radius: 24px;
+    border: 0.1rem solid rgba(235, 235, 245, 0.3);
+    border-radius: 1.5rem;
 }
 
 .teamCreditText {
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1rem;
+    line-height: 1rem;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -111,8 +116,8 @@
 }
 
 .team1Logo {
-    width: 129px;
-    height: 40px;
+    width: 8rem;
+    height: 2.5rem;
     background: #FFEE00;
     position: relative;
 }
@@ -120,12 +125,12 @@
 .team1Img {
     position: absolute;
     z-index: 1;
-    top: -20px;
-    left: 70px;
-    height: 80px;
-    width: 80px;
+    top: -1.25rem;
+    left: 4.3rem;
+    height: 5rem;
+    width: 5rem;
     background: #000235;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 0.1rem solid rgba(255, 255, 255, 0.5);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -133,13 +138,13 @@
 }
 
 .teamName {
-    margin: 0 20px;
+    margin: 0 1.25rem;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 13px;
+    font-size: 1.1rem;
+    line-height: 0.8rem;
     text-align: center;
-    letter-spacing: 0.07px;
+    letter-spacing: 0.004rem;
     color: #FFFFFF;
 }
 
@@ -151,8 +156,8 @@
 }
 
 .team2Logo {
-    width: 129px;
-    height: 40px;
+    width: 8rem;
+    height: 2.5rem;
     background: #CE0037;
     position: relative;
 }
@@ -160,12 +165,12 @@
 .team2Img {
     position: absolute;
     z-index: 1;
-    top: -20px;
-    right: 70px;
-    height: 80px;
-    width: 80px;
+    top: -1.25rem;
+    right: 4.3rem;
+    height: 5rem;
+    width: 5rem;
     background: #000235;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 0.1rem solid rgba(255, 255, 255, 0.5);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -188,23 +193,23 @@
 
 .playerCard {
     display: flex;
-    width: 305px;
-    height: 88px;
+    width: 19rem;
+    height: 5.5rem;
     background: rgba(255, 255, 255, 0.2);
-    border: 0.5px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 4px 40px rgba(0, 1, 27, 0.2);
-    backdrop-filter: blur(20px);
-    border-radius: 4px;
+    border: 0.03rem solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0rem 0.25rem 2.5rem rgba(0, 1, 27, 0.2);
+    backdrop-filter: blur(1.25rem);
+    border-radius:0.25rem;
     cursor: pointer;
     /* border:2px solid #FF326A; */
 }
 
 .playerCardImg {
-    width: 87px;
-    height: 87px;
+    width: 5.4rem;
+    height: 5.4rem;
     background: #211134;
-    border: 0px solid #FFFFFF;
-    border-radius: 4px;
+    border: 0rem solid #FFFFFF;
+    border-radius: 0.4rem;
 }
 
 .playerImg {
@@ -214,17 +219,17 @@
 }
 
 .playerCardDetails {
-    width: 218px;
+    width: 13.6rem;
     display: flex;
     flex-direction: column
 }
 
 .playerName {
-    height: 58px;
+    height: 3.6rem;
     background: rgba(255, 255, 255, 0.1);
-    border: 0.5px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(20px);
-    border-radius: 0px 4px 0px 0px;
+    border: 0.03rem solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(1.25rem);
+    border-radius: 0rem 0.25rem 0.25rem 0.25rem;
     display: flex;
     flex-direction: column;
 }
@@ -236,13 +241,13 @@
 .nameText {
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.18rem;
     color: #FFFFFF;
 }
 
 .playerCredit {
-    height: 29px;
+    height: 1.8rem;
 }
 
 .credit {
@@ -252,8 +257,8 @@
 .creditDetails {
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.18rem;
     color: #FF326A;
 }
 
@@ -267,16 +272,33 @@
 
 
 .btn {
-    height: 64px;
-    width: 626px;
+    height: 4rem;
+    width: 39rem;
     background: #FF326A;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.125rem;
     line-height: 152.5%;
     text-align: center;
-    letter-spacing: 0.07px;
+    letter-spacing: 0.004rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-disabled {
+    height: 4rem;
+    width: 39rem;
+    border-radius: 0.5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 152.5%;
+    text-align: center;
+    letter-spacing: 0.004rem;
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 1rem 2rem;

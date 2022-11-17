@@ -2,20 +2,22 @@ import './App.css';
 import Navbar from './components/Navbar';
 import News from './components/News';
 import CreateTeam from './components/CreateTeam';
+import LiveStream from './components/LiveStream';
+import LiveMatches from './components/LiveMatches'
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
       <div className="AppContent">
         <News />
         <CreateTeam />
-        <div>
-          <div>Live Stream</div>
-          <div>Live Matches</div>
+        <div className="AppLastContent">
+          <LiveStream />
+          <LiveMatches />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

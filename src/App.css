@@ -1,9 +1,11 @@
-.App {
-    width: 100%;
-}
 
 .AppContent{
     margin-top:4rem;
     padding:0 1rem;
     display:flex;
+}
+.AppLastContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
