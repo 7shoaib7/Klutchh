@@ -12,12 +12,11 @@ const LiveMatches = () => {
       </div>
       <div className="liveMatchContent">
         <div className="liveMatchContentBox">
-
           <div className="liveTeamsDetails">
-            <div className="team1">
+            <div className="team1Header">
               <p className="team1Name">SkyEsports Pro Invitational</p>
             </div>
-            <div className="team2">
+            <div className="team2Header">
               <div className="team2logo">
                 <img src={valorant} alt="valorant" className="team2logoImg" />
               </div>
@@ -40,7 +39,6 @@ const LiveMatches = () => {
                 <span className="teamName">Cloud9</span>
               </div>
             </div>
-
             <div className="team2Details">
               <div>
                 <span className="teamName">BDS</span>
@@ -52,20 +50,19 @@ const LiveMatches = () => {
               </div>
             </div>
           </div>
-
           <div className="live">
             <button className="liveBtn">LIVE</button>
           </div>
-
         </div>
+
+        
 
         <div className="liveMatchContentBox">
-
           <div className="liveTeamsDetails">
-            <div className="team1">
+            <div className="team1Header">
               <p className="team1Name">SkyEsports Pro Invitational</p>
             </div>
-            <div className="team2">
+            <div className="team2Header">
               <div className="team2logo">
                 <img src={valorant} alt="valorant" className="team2logoImg" />
               </div>
@@ -88,7 +85,6 @@ const LiveMatches = () => {
                 <span className="teamName">Cloud9</span>
               </div>
             </div>
-
             <div className="team2Details">
               <div>
                 <span className="teamName">BDS</span>
@@ -100,299 +96,14 @@ const LiveMatches = () => {
               </div>
             </div>
           </div>
-
           <div className="live">
             <button className="liveBtn">LIVE</button>
           </div>
-
         </div>
 
-        <div className="liveMatchContentBox">
 
-          <div className="liveTeamsDetails">
-            <div className="team1">
-              <p className="team1Name">SkyEsports Pro Invitational</p>
-            </div>
-            <div className="team2">
-              <div className="team2logo">
-                <img src={valorant} alt="valorant" className="team2logoImg" />
-              </div>
-              <div className="team2Name">
-                <p className="team2Name">Valorant</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="line"></div>
-
-          <div className="teamDetails">
-            <div className="team1Details">
-              <div className="team1box">
-                <div className="team1LogoImgBox">
-                  <img src={liveTeamLogo} />
-                </div>
-              </div>
-              <div>
-                <span className="teamName">Cloud9</span>
-              </div>
-            </div>
-
-            <div className="team2Details">
-              <div>
-                <span className="teamName">BDS</span>
-              </div>
-              <div className="team2box">
-                <div className="team2LogoImgBox">
-                  <img src={liveTeam2Logo} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="live">
-            <button className="liveBtn">LIVE</button>
-          </div>
-
-        </div>
-
-        <div className="liveMatchContentBox">
-
-          <div className="liveTeamsDetails">
-            <div className="team1">
-              <p className="team1Name">SkyEsports Pro Invitational</p>
-            </div>
-            <div className="team2">
-              <div className="team2logo">
-                <img src={valorant} alt="valorant" className="team2logoImg" />
-              </div>
-              <div className="team2Name">
-                <p className="team2Name">Valorant</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="line"></div>
-
-          <div className="teamDetails">
-            <div className="team1Details">
-              <div className="team1box">
-                <div className="team1LogoImgBox">
-                  <img src={liveTeamLogo} />
-                </div>
-              </div>
-              <div>
-                <span className="teamName">Cloud9</span>
-              </div>
-            </div>
-
-            <div className="team2Details">
-              <div>
-                <span className="teamName">BDS</span>
-              </div>
-              <div className="team2box">
-                <div className="team2LogoImgBox">
-                  <img src={liveTeam2Logo} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="live">
-            <button className="liveBtn">LIVE</button>
-          </div>
-
-        </div>
-        <div className="liveMatchContentBox">
-
-          <div className="liveTeamsDetails">
-            <div className="team1">
-              <p className="team1Name">SkyEsports Pro Invitational</p>
-            </div>
-            <div className="team2">
-              <div className="team2logo">
-                <img src={valorant} alt="valorant" className="team2logoImg" />
-              </div>
-              <div className="team2Name">
-                <p className="team2Name">Valorant</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="line"></div>
-
-          <div className="teamDetails">
-            <div className="team1Details">
-              <div className="team1box">
-                <div className="team1LogoImgBox">
-                  <img src={liveTeamLogo} />
-                </div>
-              </div>
-              <div>
-                <span className="teamName">Cloud9</span>
-              </div>
-            </div>
-
-            <div className="team2Details">
-              <div>
-                <span className="teamName">BDS</span>
-              </div>
-              <div className="team2box">
-                <div className="team2LogoImgBox">
-                  <img src={liveTeam2Logo} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="live">
-            <button className="liveBtn">LIVE</button>
-          </div>
-
-        </div>
-
-        <div className="liveMatchContentBox">
-
-          <div className="liveTeamsDetails">
-            <div className="team1">
-              <p className="team1Name">SkyEsports Pro Invitational</p>
-            </div>
-            <div className="team2">
-              <div className="team2logo">
-                <img src={valorant} alt="valorant" className="team2logoImg" />
-              </div>
-              <div className="team2Name">
-                <p className="team2Name">Valorant</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="line"></div>
-
-          <div className="teamDetails">
-            <div className="team1Details">
-              <div className="team1box">
-                <div className="team1LogoImgBox">
-                  <img src={liveTeamLogo} />
-                </div>
-              </div>
-              <div>
-                <span className="teamName">Cloud9</span>
-              </div>
-            </div>
-
-            <div className="team2Details">
-              <div>
-                <span className="teamName">BDS</span>
-              </div>
-              <div className="team2box">
-                <div className="team2LogoImgBox">
-                  <img src={liveTeam2Logo} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="live">
-            <button className="liveBtn">LIVE</button>
-          </div>
-
-        </div>
-
-        <div className="liveMatchContentBox">
-
-          <div className="liveTeamsDetails">
-            <div className="team1">
-              <p className="team1Name">SkyEsports Pro Invitational</p>
-            </div>
-            <div className="team2">
-              <div className="team2logo">
-                <img src={valorant} alt="valorant" className="team2logoImg" />
-              </div>
-              <div className="team2Name">
-                <p className="team2Name">Valorant</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="line"></div>
-
-          <div className="teamDetails">
-            <div className="team1Details">
-              <div className="team1box">
-                <div className="team1LogoImgBox">
-                  <img src={liveTeamLogo} />
-                </div>
-              </div>
-              <div>
-                <span className="teamName">Cloud9</span>
-              </div>
-            </div>
-
-            <div className="team2Details">
-              <div>
-                <span className="teamName">BDS</span>
-              </div>
-              <div className="team2box">
-                <div className="team2LogoImgBox">
-                  <img src={liveTeam2Logo} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="live">
-            <button className="liveBtn">LIVE</button>
-          </div>
-
-        </div>
-        {/* <div className="liveMatchContentBox">
-
-          <div className="liveTeamsDetails">
-            <div className="team1">
-              <p className="team1Name">SkyEsports Pro Invitational</p>
-            </div>
-            <div className="team2">
-              <div className="team2logo">
-                <img src={valorant} alt="valorant" className="team2logoImg" />
-              </div>
-              <div className="team2Name">
-                <p className="team2Name">Valorant</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="line"></div>
-
-          <div className="teamDetails">
-            <div className="team1Details">
-              <div className="team1box">
-                <div className="team1LogoImgBox">
-                  <img src={liveTeamLogo} />
-                </div>
-              </div>
-              <div>
-                <span className="teamName">Cloud9</span>
-              </div>
-            </div>
-
-            <div className="team2Details">
-              <div>
-                <span className="teamName">BDS</span>
-              </div>
-              <div className="team2box">
-                <div className="team2LogoImgBox">
-                  <img src={liveTeam2Logo} />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="live">
-            <button className="liveBtn">LIVE</button>
-          </div>
-
-        </div> */}
-
+        
+        
       </div>
     </div>
   )
