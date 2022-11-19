@@ -9,6 +9,10 @@
     padding: 0 2rem;
     color: white;
     box-sizing: border-box;
+    position:fixed;
+    z-index: 20;
+    top: 0;
+    width: 100%;
 }
 
 .navMenu{
@@ -16,6 +20,7 @@
     flex-wrap: wrap;
     gap:1rem;
     margin-left: 2rem;
+    cursor: pointer;
 }
 .navMenuTitle {
     font-style: normal;
@@ -23,14 +28,20 @@
     font-size: 0.8rem;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
+.navMenuTitle:hover{
+    color:#FF323E;
+}
 
 .navProfile{
     margin-left: 2rem;
     display: flex;
+    cursor: pointer;
 }
 
 .navLogout{
-    margin-left: 2rem;   
+    margin-left: 2rem;  
+    cursor: pointer; 
 }
